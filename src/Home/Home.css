@@ -1,0 +1,87 @@
+*{margin: 0; box-sizing: border-box;}
+.py{padding-top: 100px; padding-bottom: 100px;}
+.header .nav-bar .nav-menu ul li a{text-decoration: none; color: black; }
+.header .nav-bar .nav-menu ul{justify-content: center;margin: 10px; }
+.header .btn button {background-color: #F54C1E; padding: 9px; border-radius: 10px; border: none; color: #ffffff;  margin-left: 160px;} 
+.header .nav-bar .nav-menu ul li a.active, .header .nav-bar .nav-menu ul li a.hover{color: #F54C1E;}
+.banner .banner-contant h1{font-size: 58px; color: #ffffff;}
+.banner{background-color: #031333;}
+.banner .banner-contant{position: relative; top: 10%;left: 0%;}
+.banner .banner-contant h1 span{color: #F54C1E;}
+.banner .banner-contant p{font-size: 16px; color: #ffffff;}
+.banner .banner-contant .btn button{background-color: #F54C1E; margin: 0; padding: 10px; border: none; color: #ffffff;}
+.feachure .feachure-title span{font-size: 20px; color: #F54C1E; padding-left: 577px; padding-right: 577px;}
+.feachure .feachure-title h1{font-size: 38px; text-align: center; padding-bottom: 50px;}
+.about .about-image .img1{position: relative; top: 45%; left: 10%; z-index: -1;}
+.about .about-image .img2{padding-bottom: 40px; padding-right: 20px;}
+.about .about-image .img3{padding-top: 40px;}
+.about .about-contant span{font-size: 20px; color: #F54C1E;}
+.about .about-contant h1{font-size: 48px; font-weight: 600; color: #031333;}
+.about .about-contant .btn button{background-color: #F54C1E; margin: 0; padding: 10px; border: none; color: #ffffff;}
+.service{background-color: #031333;}
+.service .service-title span{font-size: 20px; font-weight: 500; color: #F54C1E;} 
+.service .service-title h1{font-size: 48px; font-weight: 600; color: #ffffff;}
+.service .img1 img{width:648px; height: 669px; object-fit: cover; padding-left: 20px; padding-top: 30PX;}
+.service .img2 img{width:648px; height: 669px; object-fit: cover; padding-left: 20px; padding-top: 30PX;}
+.information .information-image .img1{position: relative; top: -50%; left: 10% ; z-index: -1;}
+.information .information-image .img-3 img{margin: -101px; margin-left: 391px;}
+.information .information-image .img-3{position: absolute;}
+.information .information-contact span{font-size: 20px; color: #F54C1E;}
+.information .information-contact h1{font-size: 48px; font-weight: 600; color: #031333;}
+.information .information-contact p{font-size: 18px; font-weight: 500; color: #989898;}
+.project .project-title span{font-size: 20px; color: #F54C1E;  padding-left: 850px; padding-right: 850px;}
+.project .project-title h1{font-size: 38px; text-align: center; padding-bottom: 50px; padding-top:20px ;}
+
+
+/*Responsive Home Page */   
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+    .header .nav-bar .list-menu{display: none;}
+}
+    
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+    .header .nav-bar .list-menu{display: none;}
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+    .header .btn button{margin-left: 112px;}
+    .header .nav-bar .list-menu{display: none;}
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    .header .btn button{margin-left: 70px;}
+    .header .nav-bar .list-menu{display: none;}
+    .banner .banner-image img{width: 107%; padding-top: 22px;}
+    .banner .banner-contant h1{font-size: 50px;}
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+    .header .nav-bar .nav-menu{display: none;}
+    .header .btn{display: none;}
+    .header .nav-bar .list-menu{font-size: 100px;}
+    .banner .banner-contant ,.banner .banner-image{display:block;}
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+
+}
+
+/* Mobile 320px */
+@media (max-width: 320px) {
+  
+}
